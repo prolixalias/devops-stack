@@ -1,6 +1,6 @@
 module "cluster" {
   # source  = "camptocamp/k3s/rancher2"
-  source = "./modules"
+  source = "./.terraform/modules"
   # version = "1.0.1"
 
   network_name  = "bridge"
@@ -10,7 +10,7 @@ module "cluster" {
   api_url    = var.rancher2_api_url
   access_key = var.rancher2_access_key
   secret_key = var.rancher2_secret_key
-  insecure = var.rancher2_insecures
+  insecure   = var.rancher2_insecure
 
   server_config = [
     "--disable", "traefik",
