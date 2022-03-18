@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    docker = {
+    rancher2 = {
       source  = "rancher/rancher2"
       version = "~> 1.22"
     }
