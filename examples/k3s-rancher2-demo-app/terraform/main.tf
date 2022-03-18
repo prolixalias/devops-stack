@@ -8,7 +8,8 @@ locals {
 }
 
 module "cluster" {
-  source = "git::https://github.com/prolixalias/devops-stack.git/modules/k3s/rancher2?ref=discovery"
+  source = "https://github.com/prolixalias/devops-stack/tree/discovery/modules/k3s/rancher2"
+  
 
   cluster_name = "my-cluster"
   node_count   = 1
