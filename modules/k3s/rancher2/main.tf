@@ -1,7 +1,7 @@
 module "cluster" {
   # source  = "camptocamp/k3s/rancher2"
   source = "./modules/cluster"
-  version = "1.0.1"
+  # version = "1.0.1"
 
   network_name  = "bridge"
   # cluster_name  = var.cluster_name
