@@ -1,6 +1,6 @@
 module "cluster" {
   # source  = "camptocamp/k3s/rancher2"
-  source = "./.terraform/modules"
+  source = "."
   # version = "1.0.1"
 
   network_name  = "bridge"
