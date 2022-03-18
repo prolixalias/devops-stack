@@ -1,0 +1,8 @@
+= K3S Rancher2 Terraform Module
+
+The `k3s/rancher2` Terraform module provides a way to install and configure:
+
+* A K3s cluster based on Rancher2
+* The xref:ROOT:references/terraform_modules/argocd-helm.adoc[ArgoCD Helm] module
+
+
