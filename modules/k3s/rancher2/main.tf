@@ -1,7 +1,6 @@
 module "cluster" {
-  # source  = "camptocamp/k3s/rancher2"
-  source = "git::https://github.com/prolixalias/devops-stack.git//modules/k3s/rancher2?ref=discovery"
-  # version = "1.0.1"
+  source  = "camptocamp/k3s/rancher2"
+  version = "1.0.1"
 
   network_name  = "bridge"
   # cluster_name  = var.cluster_name
